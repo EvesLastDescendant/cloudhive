@@ -1,0 +1,34 @@
+:root {
+    --colorOne: #031A6B;
+    --colorTwo: #033860;
+    --colorTri: #087CA7;
+    --colorFo: #004385;
+    --colorFiv: #05B2DC;
+    --colorSix: #000022;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-top: 5em;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
