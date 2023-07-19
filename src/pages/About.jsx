@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowUpRightDots, faHourglass, faLockOpen, faTentArrowTurnLeft, faUsersGear, faYinYang } from "@fortawesome/free-solid-svg-icons"
 import Values from "./components/Values"
+import Training from "./components/Training"
 
 const About = () => {
     return (
@@ -25,7 +26,8 @@ const About = () => {
                 </div>
                 <div className="container-sm shadow rounded-3 mt-5 p-3">
                     <p className="display-6 fw-semibold">Our Training Services</p>
-                    <div className="container-fluid border border-info"></div>
+                    <hr />
+                    <Training />
                 </div>
                 <div className="mt-3 float-end shadow rounded rounded-3 bg-primary box">
                     <Link to="/"><FontAwesomeIcon icon={faTentArrowTurnLeft} className="back-to-home-icon" title="Go back home"/></Link>
