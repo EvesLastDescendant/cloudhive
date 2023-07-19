@@ -39,7 +39,7 @@ const Training = () => {
                                                         <li>Job Readiness/Connection</li>
                                                     </ul>
                                                     <p class="tp">N100k per seat Limited seats available</p>
-                                                    <div className="container-fluid-sm">
+                                                    {/* <div className="container-fluid-sm">
                                                         <div className="row gx-3">
                                                             <div className="col d-flex flex-row">
                                                                 <a className="me-1" href="mailto:isaiahAndrew@protonmail.com" target="_blank">
@@ -54,7 +54,7 @@ const Training = () => {
                                                                 <p>give us a call</p>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                                 <div className="modal-footer">
                                                     <button 

@@ -1,26 +1,26 @@
 export default [
     {
-        id: "1",
+        id: "mobdev",
         cousre: "Moblie App Development",
         description: "Java for Android Development"
     },
     {
-        id: "2",
+        id: "prog",
         cousre: "Programming",
         description: "JavaScript and Python"
     },
     {
-        id: "3",
+        id: "web",
         cousre: "Web Development",
         description: "ReactJS, AngularJS, NodeJS, VueJS"
     },
     {
-        id: "4",
+        id: "uix",
         cousre: "UI/UX Designs",
         description: "Figma and Canva"
     },
     {
-        id: "5",
+        id: "gcp",
         cousre: "Google Cloud Computing",
         description: "Jenkins, Kubernetes, Docker"
     }
