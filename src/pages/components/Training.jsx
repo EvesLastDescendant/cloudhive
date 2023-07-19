@@ -1,6 +1,6 @@
 import trainingdata from "./trainingDB"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faMobileRetro, faEnvelopeOpenText} from "@fortawesome/free-solid-svg-icons"
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+// import {faMobileRetro, faEnvelopeOpenText} from "@fortawesome/free-solid-svg-icons"
 
 const Training = () => {
     return (
