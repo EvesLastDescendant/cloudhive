@@ -1,4 +1,6 @@
 import trainingdata from "./trainingDB"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faMobileRetro, faEnvelopeOpenText} from "@fortawesome/free-solid-svg-icons"
 
 const Training = () => {
     return (
@@ -25,8 +27,34 @@ const Training = () => {
                                         <div className="modal-dialog modal-dialog-centered">
                                             <div className="modal-content">
                                                 <div className="modal-body">
-                                                    <p>{data.cousre}</p>
-                                                    <p>{data.description}</p>
+                                                    <p className="h4 fw-bold">
+                                                        {data.cousre} <br /> {data.description}
+                                                    </p>
+                                                    <p>3 Months Hands-on Training Course Features</p>
+                                                    <ul>
+                                                        <li>Expert Lead</li>
+                                                        <li>Hands-on Training</li>
+                                                        <li>Conducive Learning Environment Internship (Real life experience)</li>
+                                                        <li>Certification</li>
+                                                        <li>Job Readiness/Connection</li>
+                                                    </ul>
+                                                    <p class="tp">N100k per seat Limited seats available</p>
+                                                    <div className="container-fluid-sm">
+                                                        <div className="row gx-3">
+                                                            <div className="col d-flex flex-row">
+                                                                <a className="me-1" href="mailto:isaiahAndrew@protonmail.com" target="_blank">
+                                                                    <FontAwesomeIcon icon={faEnvelopeOpenText} />
+                                                                </a>
+                                                                <p>send us a message</p>
+                                                            </div>
+                                                            <div className="col d-flex flex-row">
+                                                                <a className="me-1" href="tel: 09056959085" target="_blank">
+                                                                    <FontAwesomeIcon icon={faMobileRetro} />
+                                                                </a>
+                                                                <p>give us a call</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div className="modal-footer">
                                                     <button 
