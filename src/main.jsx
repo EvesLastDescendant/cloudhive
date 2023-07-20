@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Events from "./pages/Events"
-import Blog from "./pages/Blog"
-import Error from './pages/Error'
-import SharedLayout from "./pages/SharedLayout"
+import Home from "./routes/Home"
+import About from "./routes/About"
+import Events from "./routes/Events"
+import Blog from "./routes/Blog"
+import Error from './routes/Error'
+import SharedLayout from "./components/SharedLayout"
 import "./App.css"
 import "./index.css"
 

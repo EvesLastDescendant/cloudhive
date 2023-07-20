@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faClose } from "@fortawesome/free-solid-svg-icons"
 import { Link, NavLink } from "react-router-dom"
-import logo from "./logo/logo.jpg"  
+import logo from "../assets/logo.jpg"  
 
 const StyledNavBar = () => {
     return (

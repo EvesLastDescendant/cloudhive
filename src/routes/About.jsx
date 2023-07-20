@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTentArrowTurnLeft} from "@fortawesome/free-solid-svg-icons"
-import Values from "./components/Values"
-import Training from "./components/Training"
+import Values from "../components/Values"
+import Training from "../components/Training"
 
 const About = () => {
     return (

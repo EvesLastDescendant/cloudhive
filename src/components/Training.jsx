@@ -1,4 +1,4 @@
-import trainingdata from "./trainingDB"
+import trainingdata from "../databases/trainingDB"
 // import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 // import {faMobileRetro, faEnvelopeOpenText} from "@fortawesome/free-solid-svg-icons"
 

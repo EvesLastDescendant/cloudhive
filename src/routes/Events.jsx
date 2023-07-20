@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCalendarDays, faClock } from "@fortawesome/free-regular-svg-icons"
 import { faLocationDot, faTentArrowTurnLeft } from "@fortawesome/free-solid-svg-icons"
 import mic from "../assets/erkanUtu.jpg"
-import eventData from "../EventsDB"
+import eventData from "../databases/EventsDB"
 
 const Events = () => {
     const location = useLocation()

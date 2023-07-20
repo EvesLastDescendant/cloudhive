@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
-import StyledNavBar from "./components/StyledNavBar"
-import Footer from "./components/StyledFooter"
+import StyledNavBar from "./StyledNavBar"
+import Footer from "./StyledFooter"
 
 const SharedLayout = () => {
     return (
