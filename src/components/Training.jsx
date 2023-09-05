@@ -55,6 +55,8 @@ const Training = () => {
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    {/* <FontAwesomeIcon icon={data.icon} /> */}
+                                                    
                                                 </div>
                                                 <div className="modal-footer">
                                                     <button 
