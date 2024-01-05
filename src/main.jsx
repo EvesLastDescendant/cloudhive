@@ -7,6 +7,10 @@ import Events from "./routes/Events"
 import Blog from "./routes/Blog"
 import Error from './routes/Error'
 import SharedLayout from "./components/SharedLayout"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '@popperjs/core/dist/umd/popper.min.js'
+import $ from 'jquery';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import "./App.css"
 import "./index.css"
 
